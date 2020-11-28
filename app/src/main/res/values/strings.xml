@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trello</string>
+    <string name="already_a_member">Already a member</string>
+    <string name="login">login</string>
+    <string name="not_a_member">Not a member</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="help">Simply add, edit and delete your reminders. If you have any questions, go have a beer.</string>
+</resources>

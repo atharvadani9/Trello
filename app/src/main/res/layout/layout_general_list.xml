@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9388A2">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:textSize="25sp"
+            android:text="xyz"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#9388A2">
+
+            <Button
+                android:id="@+id/decrease"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:onClick="decreaseInteger"
+                android:text="-"
+                android:textSize="18sp"
+                android:backgroundTint="#341948"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/integer_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/increase"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:onClick="increaseInteger"
+                android:text="+"
+                android:backgroundTint="#341948"
+                android:textColor="#FFFFFF"
+                android:paddingRight="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/buynow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Buy"
+                android:backgroundTint="#341948"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
